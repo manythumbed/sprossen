@@ -13,7 +13,7 @@
 	</modules>
 
 	<properties>
-		<kotlin.version>0.6.602</kotlin.version>
+		<kotlin.version>0.6.1670</kotlin.version>
 		<junit.version>4.10</junit.version>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -47,8 +47,8 @@
 	</dependencies>
 
 	<build>
-		<sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>
-		<testSourceDirectory>${project.basedir}/src/test/kotlin</testSourceDirectory>
+		<!--<sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>-->
+		<!--<testSourceDirectory>${project.basedir}/src/test/kotlin</testSourceDirectory>-->
 
 		<plugins>
 			<plugin>

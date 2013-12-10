@@ -34,7 +34,7 @@ class SimpleStoreTest : TestCase()  {
 
 		val events = store.fetch(Identifier("1"))
 
-		assertTrue(events.size == 1, "An list of one element should be returned for a known identifier")
+		assertTrue(events.size == 1, "A list of one element should be returned for a known identifier")
 	}
 
 	private class TestEvent() : Event()
